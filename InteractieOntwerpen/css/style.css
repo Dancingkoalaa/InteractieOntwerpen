@@ -1,0 +1,64 @@
+header {
+    background-color: #00286B;
+    color: #ECF9F8;
+    display: block;
+}
+header a {
+    font-size: 30px;
+    font-family: "Cooper Black";
+    text-align: center;
+    margin-left: 40%;
+}
+
+Header .button {
+    background-color: #00509D;
+    font-family: "Cooper Black";
+    float: right;
+    border: none;
+    color: #FFD500;
+    padding: 15px;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+body{
+    background-color: #FFD500;
+}
+.body {
+    margin-top: 15%;
+}
+.w3-table-all{
+    margin-top: 1%;
+}
+body .terug {
+    background-color: #00509D;
+    font-family: "Cooper Black";
+    border: none;
+    color: #FFD500;
+    padding: 15px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #00286B;
+    color: #ECF9F8;
+    font-size: 30px;
+    font-family: "Cooper Black";
+}
+
+@media screen and (max-width: 600px) {
+    header a {
+        margin-left: 25%;
+        font-size: 25px;
+    }
+    .w3-table-all{
+        margin-top: 3%;
+    }
+}
